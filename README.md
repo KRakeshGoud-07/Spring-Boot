@@ -8,7 +8,7 @@ This Spring Boot REST API demonstrates how to replace a placeholder in a DOCX fi
    Saves the modified DOCX to a new file
    Deletes the temporary XHTML file after processing
 
- How It Works
+ How It Works :
 	The user places a DOCX file (1.docx) in their home directory with a placeholder text (e.g., data).
 	The API /replace-placeholder-with-html reads this file.
 	HTML content is defined inside the code (can be loaded from an external file or DB).
